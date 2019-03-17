@@ -1,0 +1,20 @@
+Socket Programming:
+ -Minimum Requirement.
+  -Linux OS [Lib. Header Files]
+ -IP & Port No.
+ -Server & Client Concept.
+ -Major steps.
+ -Server:
+   =Create a socket with the socket()
+   =Bind the socket to an address using the bind().
+   =Listen for connections with the listen().
+   =Accept a connection with the accept().
+   =Send and receive data, use the read() and write() system calls.
+
+  -Client:
+   =Create a socket with the socket()
+   =Connect the socket to the address of the server using the connect() system call.
+   =Send and receive data, use the read() and write() system calls.
+ -Server coding.
+ -Client coding.
+ -Running.
